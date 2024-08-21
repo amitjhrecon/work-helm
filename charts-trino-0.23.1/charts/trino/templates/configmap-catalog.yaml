@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/component: catalogs
 data:
   tpch.properties: |
-    connector.name=tpch
+    connector.name= {{ .Values.request.allowedCharactersRegex }}
     tpch.splits-per-node=4
   tpcds.properties: |
     connector.name=tpcds
