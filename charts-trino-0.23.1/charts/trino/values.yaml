@@ -11,6 +11,8 @@
 # workerNameOverride: trino-worker-adhoc
 # nameOverride: trino-adhoc
 # ```
+request:
+    allowedCharactersRegex: "[\\p{Lu}\\p{Ll}\\p{Lo}\\p{Nd}\\p{Zs}\\[\\]\\(\\)',:;.&#-—‘’“”`§~|±!+=*@\"\\{\\}]*"
 nameOverride:
 coordinatorNameOverride:
 workerNameOverride:
