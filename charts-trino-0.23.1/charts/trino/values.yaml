@@ -12,7 +12,7 @@
 # nameOverride: trino-adhoc
 # ```
 request:
-    allowedCharactersRegex: ""[-A-Za-z0-9\\p{Lu}\\p{Ll}\\p{Lo}\\p{Nd}\\p{Zs}, \\\\\\[\\]\\(\\)',‚:;.&#-—‘’“”`§~†|±!+=*@_?€™’\"\\{\\}]*""
+    allowedCharactersRegex: "[-A-Za-z0-9\\p{Lu}\\p{Ll}\\p{Lo}\\p{Nd}\\p{Zs}, \\\\\\[\\]\\(\\)',‚:;.&#-—‘’“”`§~†|±!+=*@_?€™’\"\\{\\}]*"
 nameOverride:
 coordinatorNameOverride:
 workerNameOverride:
